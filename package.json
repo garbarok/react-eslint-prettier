@@ -5,6 +5,8 @@
   "main": "src/App.js",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "7.16.7",
+    "@parcel/packager-raw-url": "^2.4.0",
+    "@parcel/transformer-webmanifest": "^2.4.0",
     "eslint": "^8.11.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.25.4",
@@ -24,7 +26,7 @@
     "web-vitals": "2.1.4"
   },
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel public/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
@@ -38,4 +40,3 @@
     "last 2 Chrome versions"
   ]
 }
-
