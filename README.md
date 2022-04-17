@@ -1,4 +1,4 @@
-# vite-react-eslint-prettier
+# Parcel-react-eslint-prettier
 
 A starter for React with Parcel, Eslint and formatting with Prettier.
 
